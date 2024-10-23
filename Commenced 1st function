@@ -1,0 +1,10 @@
+import random
+round_number = 0 
+wins = 0 
+losses = 0 
+results = []  
+results_for_simulation = [] 
+
+def main_function():
+
+    options = input('\nEnter 1 to play the game, 2 to stimulate rounds (switch and stay), 3 to stimulate always switch, 4 to stimulate always stay, 5 to stimulate many doors or any other key to quit: ')
